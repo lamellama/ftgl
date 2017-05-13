@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/menu1"
+	    android:gravity="top" >
+	
+
+	    <TextView
+	        android:id="@+id/congrats_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="Congratulations brother, you are a hero to the great prosperous nation of Korea. You have done your duty and will be greatly rewarded. All traitors will be executed and relatives will be sent to the re-education camps. 
+	        
+	        ..But there is still a chance to go back, to try and change things."
+	        android:textSize="20sp"
+	        android:textColor="#ffffff"
+	        android:textStyle="bold"
+	        android:paddingLeft="15px"
+	        android:paddingRight="15px"
+	        />
+	 
+	
+	   	<ImageView
+	   	    android:id="@+id/tryagain_button"
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="bottom"
+	   	    android:scaleType="fitXY"
+	   	    android:src="@drawable/comic_tryagain_rollover_button" />
+		
+	</FrameLayout>
+
+</LinearLayout>
+

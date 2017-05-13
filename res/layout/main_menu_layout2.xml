@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+<FrameLayout
+    android:id="@+id/mainmenu_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu1"
+    android:gravity="top" >
+
+    <ImageView
+        android:id="@+id/newgame_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:scaleType="fitXY"
+        android:paddingTop="3sp"
+        android:src="@drawable/comic_newgame_rollover_button" />
+
+   	<ImageView
+   	    android:id="@+id/continue_button"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="bottom"
+   	    android:paddingBottom="3sp"
+   	    android:scaleType="fitXY"
+   	    android:src="@drawable/comic_continue_rollover_button" />
+	
+</FrameLayout>
+
+</LinearLayout>
+

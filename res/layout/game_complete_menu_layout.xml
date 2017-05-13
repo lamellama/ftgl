@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/menu2">
+
+     <ScrollView
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:fillViewport="true"
+         android:isScrollContainer="true"
+         android:scrollbars="vertical" >
+
+	<LinearLayout
+	   
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+>
+        
+        <TextView android:text="@string/menu_complete_congrats" 
+		android:padding="35dip"
+		android:id="@+id/TextView_congratulations" 
+		style="@style/shadowStyle"></TextView>
+
+		<TextView android:text="@string/menu_complete_message" 
+		android:padding="15dip"
+		android:id="@+id/TextView_under_construction" 
+		style="@style/shadowStyle"></TextView>
+		
+		<TextView android:text="@string/menu_complete_please" 
+		android:padding="35dip"
+		android:id="@+id/TextView_please" 
+		style="@style/shadowStyle"></TextView>
+		
+		<TextView android:text="@string/menu_complete_credits" 
+		android:padding="35dip"
+		android:id="@+id/TextView_credits" 
+		style="@style/shadowStyle"></TextView>
+
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+

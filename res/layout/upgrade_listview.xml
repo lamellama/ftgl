@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageView android:id="@+id/ImageView03" 
+		android:src="@drawable/app_rtype_icon" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="4px" android:layout_marginRight="4px"
+		android:layout_marginLeft="4px" android:layout_marginBottom="4px"
+		android:layout_gravity="center_vertical">
+	</ImageView>
+	<TextView android:text="upgrd" 
+		android:id="@+id/TextView01"
+		android:textSize="22px"
+		android:focusable="false"
+		android:layout_marginTop="4px"
+		android:layout_marginRight="4px"
+		android:layout_marginLeft="4px" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_gravity="center_vertical">
+	</TextView>
+	<TextView android:id="@+id/TextView02" 
+		android:text="100"
+		android:layout_gravity="center_vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:textSize="16px"
+		android:layout_marginTop="4px"
+		android:layout_marginRight="4px"
+		android:layout_marginLeft="4px" 
+		android:focusableInTouchMode="false"
+		android:focusable="false"
+		android:clickable="false" android:gravity="right" android:textStyle="bold">
+	</TextView>
+
+</LinearLayout>

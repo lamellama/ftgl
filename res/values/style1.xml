@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="buttonStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+        <style name="normalStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#bfc0c2</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="shadowStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:gravity">center|center_horizontal</item>
+        <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1.0</item>
+	    <item name="android:shadowDy">1.0</item>
+	    <item name="android:shadowRadius">3.5</item>
+    </style>
+    
+    <style name="listStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="styleLargeAndBold" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#6d6e6f</item>
+        <item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="styleXLargeAndBold" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35sp</item>
+		<item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+</resources>

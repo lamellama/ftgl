@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top" >
+
+	<RelativeLayout
+			android:layout_marginTop="10px"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"  android:layout_gravity="top">
+
+		<TextView android:text="@string/menu_label_totalcash"
+			android:gravity="center|center_horizontal"
+			android:layout_below="@+id/adView1"
+			style="@style/styleXLargeAndBold"
+		  	android:id="@+id/tv_total"/>
+		
+		<TextView android:text="Score: "
+		    android:layout_marginTop="3px"
+			android:gravity="center|center_horizontal"
+			style="@style/styleLargeAndBold"
+			android:layout_below="@+id/tv_total"
+		  	android:id="@+id/tv_score"/>
+		<TextView android:text="Bonus: "
+		    android:layout_marginTop="3px"
+			android:gravity="center|center_horizontal"
+			style="@style/styleLargeAndBold"
+			android:layout_below="@+id/tv_score"
+		  	android:id="@+id/tv_bonus"/>
+		<TextView android:text="Metal Collected: "
+			android:gravity="center|center_horizontal"
+			android:layout_marginTop="3px"
+			style="@style/styleLargeAndBold"
+			android:layout_below="@+id/tv_bonus"
+		  	android:id="@+id/tv_metal"/>
+		<TextView android:text="Damage: -"
+			android:layout_marginTop="3px"
+			android:gravity="center|center_horizontal"
+			android:layout_below="@+id/tv_metal"
+			style="@style/styleLargeAndBold"
+		  	android:id="@+id/tv_damage"/>
+		<TextView android:text="Percent Destroyed: "
+			android:layout_marginTop="3px"
+			android:gravity="center|center_horizontal"
+			android:layout_below="@+id/tv_damage"
+			style="@style/styleLargeAndBold"
+		  	android:id="@+id/tv_percent_destroyed"/>
+		<TextView android:text="Profit: "
+			android:layout_marginTop="3px"
+			android:gravity="center|center_horizontal"
+			android:layout_below="@+id/tv_percent_destroyed"
+			style="@style/styleLargeAndBold"
+		  	android:id="@+id/tv_profit"/>		
+		<TextView android:text="Last Balance: "
+			android:layout_marginTop="3px"
+			android:gravity="center|center_horizontal"
+			android:layout_below="@+id/tv_profit"
+			style="@style/styleLargeAndBold"
+		  	android:id="@+id/tv_oldbalance"/>	
+		
+	<Button
+	    android:id="@+id/lc_next_button"
+	    style="@style/buttonStyle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/tv_oldbalance"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="25px"
+	    android:layout_marginTop="10px"
+	    android:background="@drawable/mainmenu_rollover_button"
+	    android:text="   Buy Some Upgrades   " />
+	
+	</RelativeLayout>
+</ScrollView>
+	  
+	
+	
+</FrameLayout>

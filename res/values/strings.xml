@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="app_name">For the Great Leader</string>
+	
+    <string name="menu_start">Main Menu</string>
+
+    <string name="menu_options">Options</string>
+    
+	<string name="menu_button_nextLevel">   Begin Next Level!   </string>
+    <string name="menu_button_continue">Continue</string>
+    <string name="menu_button_newgame">New Game</string>
+    
+    <string name="menu_label_totalcash">Total Cash: </string>
+
+
+    <string name="menu_complete_congrats">Congratulations, you escaped! Seriously well done I was not sure anyone would pull it off.</string>
+    <string name="menu_complete_message">..this game is still in development and more levels and features will potentially be added if people want it.</string>
+    <string name="menu_complete_please">This game is fictional but the situation in North Korea is very real, please Google it, pass on what you find, write about it, spread the word.</string>
+    <string name="menu_complete_credits">"Thanks for playing" \n
+        Developer: Matthew R. Jones \n
+        Special thanks: \n
+        webposters.adm.ntu.edu.sg \n</string>
+
+</resources>
